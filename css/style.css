@@ -428,6 +428,73 @@ input[type="submit"] {
   box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px #0652dd,
     0.3em 0.3em 1em rgba(0, 0, 0, 0.2), 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
 }
+/*--------SERVICES------*/
+
+#materiels {
+  padding: 80px 0;
+}
+
+.snippet__image {
+  grid-area: image;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.materiel-img-center {
+  margin-bottom: 15px;
+  text-align: center;
+}
+.materiel-img {
+  display: inline-block;
+  text-align: center;
+  width: 150px;
+  margin-top: 20px;
+  /* margin-left: 30px; */
+}
+
+.materiels {
+  padding: 20px;
+}
+
+.materiels h4 {
+  padding: 5px;
+  margin-top: 25px;
+  font-weight: 600;
+  color: #434877;
+  text-transform: capitalize;
+}
+.materiels p {
+  color: #2e3466;
+}
+
+.title {
+  color: #434877;
+  margin-bottom: 20px;
+}
+.line-bottom {
+  margin-right: 30%;
+  margin-left: 30%;
+  margin-bottom: 25px;
+  border-bottom: 3px solid #0652dd;
+}
+
+#materiels .btn-primary {
+  font-weight: 500;
+  border-radius: 20px;
+  background-color: #0652dd;
+  border: #0652dd;
+}
+#materiels .btn-primary:hover {
+  border-radius: 20px;
+  background-color: #0652dd;
+  border: #0652dd;
+  /* box-shadow: 0 3px 4px rgb(190, 187, 187); */
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px #0652dd,
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.2), 0.3em 0.3em 1em rgba(0, 0, 0, 0.2);
+}
+
+
 #footer .btn-primary {
   font-weight: 500;
   border-radius: 20px;
